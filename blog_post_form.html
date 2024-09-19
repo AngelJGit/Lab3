@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+
+<style> 
+    button {
+        background-color: greenyellow;
+        text-decoration-color: white;
+        border-width: 1%;
+        text-align: center;
+        border-radius: 20%;
+        border-color: white;
+        margin: 20px;
+        cursor: pointer
+}
+
+input{cursor: pointer}
+textarea{cursor: pointer}
+select{cursor: pointer}
+
+    </style> 
+    </head>
+
+<body> 
+
+<h1> Submit your Blog Post </h1> 
+
+    <p> Title: </p>
+    <input type="text" name= Blog_title placeholder="Enter Blog Post Title">
+
+    <p> Author: </p>
+    <input type="text" name=" Author " placeholder="Enter Author Name">
+
+    <p> Content: </p>
+    <textarea name="blog post content" rows="4" cols="100" placeholes="Enter Content here"></textarea>
+
+    
+    <select name="Blog Post Category" id="Blog Category">
+        <option value="">--Choose Post Category--</option>
+        <option value="sports">Sports</option>
+        <option value="Technology">Technology</option>
+        <option value="Lifestyle">Lifestyle</option>
+        <option value="Food/recipes">Food/recipes</option>
+        <option value="How to Guide">How to Guide</option>
+        <option value="News">News</option>
+        <option value="Other">Other</option>
+    </select>
+<p></p>
+    <button type="button" onclick="alert('Form Submitted')">Submit</button>
+
+</body>
+</html>
+
+
+
